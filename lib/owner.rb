@@ -51,14 +51,10 @@ end
   end
   
   def sell_pets
-    pets.each do |pet|
+    allpets.each do |pet|
       pet.mood = 'nervous'
   end 
 end 
-
-  def list_pets
-    "I have #{pets.dog.length} dog(s), and #{pets[:cats].length} cat(s)."
-  end
   
   def dogs 
     Dog.all.find_all do |dogs|
