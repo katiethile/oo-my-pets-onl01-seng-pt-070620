@@ -71,6 +71,6 @@ end
     end 
     
   def list_pets
-    "I have #{numberofdogs} dog(s), and #{numberofcats} cat(s)."
+    "I have #{numberofdogs}.count dog(s), and #{numberofcats}.count cat(s)."
   end 
 end 
