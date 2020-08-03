@@ -52,8 +52,9 @@ end
   
   def sell_pets
     allpets = dogs + cats
-    allpets.owner.each do |pet|
+    allpets.each do |pet|
       pet.mood = 'nervous'
+      pet.owner
   end 
 end 
   
