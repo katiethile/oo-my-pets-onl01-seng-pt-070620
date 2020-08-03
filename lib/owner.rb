@@ -59,7 +59,7 @@ end
 end 
 
   def list_pets
-    allpets.count
+    cats.count
   end 
   
   def dogs 
