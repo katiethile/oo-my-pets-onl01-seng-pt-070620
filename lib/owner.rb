@@ -57,6 +57,10 @@ end
       pet.owner = nil
   end 
 end 
+
+  def list_pets
+    
+  end 
   
   def dogs 
     Dog.all.find_all do |dogs|
