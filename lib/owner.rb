@@ -54,7 +54,7 @@ end
     allpets = dogs + cats
     allpets.each do |pet|
       pet.mood = 'nervous'
-      pet.owner
+    allpets.owner
   end 
 end 
   
