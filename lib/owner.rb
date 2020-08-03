@@ -70,7 +70,7 @@ end
       end 
     end 
     
-      def list_pets
+  def list_pets
     cats.dogs.count
   end 
-  end 
+end 
